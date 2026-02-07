@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container flows top → bottom and allows scrolling */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 3rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #d32f2f;
+}
+
+.from-line {
+    margin-top: 0.25rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+    font-family: "Georgia", "Times New Roman", cursive;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.yes-button,
+.no-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.yes-button {
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+}
+
+.no-button {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Image sits below content and can overflow downward */
+.gif_container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.gif_container img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    max-height: 60vh;
+    border-radius: 10px;
+}

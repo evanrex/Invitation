@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main layout container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 3rem;
+    text-align: center;
+}
+
+/* Header text centred */
+.header_text {
+    font-size: 3em;
+    color: #d32f2f;
+    margin-bottom: 1.5rem;
+}
+
+/* Image centred */
+.gif_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.gif_container img {
+    width: 100%;           /* scales to container width */
+    max-width: 300px;      /* caps width */
+    height: auto;          /* preserves aspect ratio */
+    border-radius: 10px;
+}
+
+/* Details card stays as-is */
+.details_card {
+    margin: 2rem auto 0;
+    padding: 1.5rem 2rem;
+    max-width: 420px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.details_date {
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    color: #888;
+    margin-bottom: 0.75rem;
+}
+
+.details_intro {
+    font-size: 1.2rem;
+    color: #d32f2f;
+    margin-bottom: 1rem;
+}
+
+.details_list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+}
+
+.details_list li {
+    margin: 0.5rem 0;
+    color: #444;
+}
+
+.details_footer {
+    font-size: 0.9rem;
+    color: #777;
+    font-style: italic;
+}
